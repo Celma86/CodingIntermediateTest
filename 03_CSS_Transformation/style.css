@@ -12,3 +12,14 @@ div {
     width: 20rem;
     height: 20rem;
 }
+.square {
+    width: 20rem;
+    height: 20rem;
+    transition: 2s ease-in-out;
+}
+
+.square:hover {
+    background-color: #b8c0ff;
+    rotate: 45deg;
+    scale: 120%;
+}
